@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Nov 13 20:23:40 2025</timestamp>
+			<uuid>{9fd1c1fe-a8bb-4b16-9e7d-c5cc27be68d6}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/viterbi/02/vagutier/work_gpdk045/EE477/4bit_CLA_ADDER_1X/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/viterbi/02/vagutier/work_gpdk045/EE477/4bit_CLA_ADDER_1X/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/viterbi/02/vagutier/simulation/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/home/viterbi/02/vagutier/simulation/results/maestro/ExplorerRun.0</simdir>
+		</historyentry>
+	</history>
+</setupdb>

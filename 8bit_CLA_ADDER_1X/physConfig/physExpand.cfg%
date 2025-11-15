@@ -1,0 +1,16 @@
+//Revision 3
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config \8bit_CLA_ADDER_1X ;
+design EE477.\8bit_CLA_ADDER_1X :schematic;
+liblist EE477;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig
