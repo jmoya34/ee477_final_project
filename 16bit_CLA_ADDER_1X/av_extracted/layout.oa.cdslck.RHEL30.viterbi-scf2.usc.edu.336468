@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jryao
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              336468
+ProcessCreationTime_UTC        1763256549
+ProcessCreationTime_Readable   Sat Nov 15 17:29:09 2025 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/viterbi/03/jryao/work_gpdk045/EE477/16bit_CLA_ADDER_1X/av_extracted/layout.oa.cdslck
+TimeEditLocked                 Sat Nov 15 18:14:27 2025 PST

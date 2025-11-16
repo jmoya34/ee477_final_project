@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jryao
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              336468
+ProcessCreationTime_UTC        1763256546
+ProcessCreationTime_Readable   Sat Nov 15 17:29:06 2025 PST
+AppIdentifier                  /usr/local/cadence/ICADVM201/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/viterbi/03/jryao/work_gpdk045/EE477/16bit_CLA_tb/maestro/maestro.sdb
+TimeEditLocked                 Sat Nov 15 17:56:42 2025 PST

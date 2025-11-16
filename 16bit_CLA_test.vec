@@ -1,0 +1,24 @@
+; enable waveform output
+output_wf 1
+; Specify number of bits of the vector
+radix 4444 4444 1
+; define all as input vectors
+io i i i i i i i i i
+; assign name to vectors
+vname A[15:0] B[15:0] Cin
+; set time unit
+tunit ns
+; set rise and fall times to 10ps for each input vector
+trise 0.01
+tfall 0.01
+; set logic high value to 1.0V and low to 0.0V
+vih 1.0
+vil 0.0
+
+0 5555 00DA 0
+1 FFFF AAAA 0
+2 0000 0020 0
+3 FE5E 0194 0 ; post-layout test cases
+4 8009 0090 0
+5 0000 FFFF 0 ; worse case test case
+6 0001 FFFF 0
