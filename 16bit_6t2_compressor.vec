@@ -1,0 +1,27 @@
+; radix specifies the number of bit of the vector.
+radix 44 44 44 44 44 44 44 44 44 44 44 44
+; io defines the vector as an input or output vector.
+io i i i i i i i i i i i i
+; vname assigns the name to the vector.
+vname A[15:8] A[7:0] B[15:8] B[7:0] C[15:8] C[7:0] D[15:8] D[7:0] E[15:8] E[7:0] F[15:8] F[7:0]
+; tunit sets the time unit.
+tunit ns
+; trise specifies the rise time of each input vector.
+trise 0.01
+; tfall specifies the fall time of each input vector.
+tfall 0.01
+; vih specifies the logic high voltage of each input vector.
+vih 1.0
+; vil specifies the logic low voltage of each input vector
+vil 0.0
+; The period statement is used to specify the time interval for tabular data, so that the absolute time is not needed.
+period 1.0
+
+00 00 00 00 00 00 00 00 00 00 00 00
+00 05 00 00 00 17 00 22 00 15 00 06
+00 07 00 02 00 2B 00 07 00 13 00 37
+00 0D 00 2A 00 35 00 40 00 0D 00 16
+00 10 00 1F 00 21 00 22 00 1A 00 11
+00 03 00 2D 00 0B 00 19 00 14 00 0A
+00 09 00 25 00 2B 00 1B 00 19 00 00
+00 00 00 00 00 00 00 00 00 00 00 00
