@@ -1,0 +1,25 @@
+; enable waveform output
+output_wf 1
+; Specify number of bits of the vector
+radix 44 111
+; define all as input vectors
+io i i i i i 
+; assign name to vectors
+vname Y[7:0] X[2:0]
+; set time unit
+tunit ns
+; set rise and fall times to 10ps for each input vector
+trise 0.01
+tfall 0.01
+; set logic high value to 1.0V and low to 0.0V
+vih 1.0
+vil 0.0
+
+0 3A 000
+1 3A 001
+2 3A 010
+3 70 011
+4 70 100
+5 97 101
+6 97 110
+7 97 111
