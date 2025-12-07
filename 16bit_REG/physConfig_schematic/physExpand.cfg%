@@ -1,0 +1,16 @@
+//Revision 9
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config \16bit_REG ;
+design EE477.\16bit_REG :schematic;
+liblist EE477;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig
