@@ -1,0 +1,26 @@
+//Revision 7
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config \8bit_DFF_RESET ;
+design EE477.\8bit_DFF_RESET :schematic;
+liblist EE477;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+inst (EE477.\8bit_DFF_RESET :schematic).I0 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I1 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I2 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I3 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I4 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I5 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I6 binding :schematic;
+inst (EE477.\8bit_DFF_RESET :schematic).I7 binding :schematic;
+
+
+endconfig
