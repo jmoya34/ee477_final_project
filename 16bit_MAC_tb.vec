@@ -1,0 +1,48 @@
+; enable waveform output
+output_wf 1
+; Specify number of bits of the vector
+radix 44 44 1 1
+; define all as input vectors
+io i i i i i i
+; assign name to vectors
+vname A[7:0] B[7:0] CLK RST_b
+; set time unit
+tunit ns
+; set rise and fall times to 10ps for each input vector
+trise 0.01
+tfall 0.01
+; set logic high value to 1.0V and low to 0.0V
+vih 1.0
+vil 0.0
+
+;time   A   B   CLK RST_b
+0       00  00  0   0
+0.5     00  00  1   0
+1       55  FF  0   1
+1.5     55  FF  1   1
+2       FF  AA  0   1
+2.5     FF  AA  1   1
+3       FF  55  0   0
+3.5     FF  55  1   0
+4       7F  80  0   1
+4.5     7F  80  1   1
+5       00  0F  0   1
+5.5     00  0F  1   1
+6       F0  20  0   1
+6.5     F0  20  1   1
+7       80  80  0   0
+7.5     80  80  1   0
+8       7F  7F  0   1
+8.5     7F  7F  1   1
+9       99  19  0   0
+9.5     99  19  1   0
+10      2A  D5  0   1
+10.5    2A  D5  1   1
+11      3B  33  0   1
+11.5    3B  33  1   1
+12      1C  31  0   1
+12.5    1C  31  1   1
+13      01  01  0   1
+13.5    01  01  1   1
+14      00  00  0   1
+14.5    00  00  1   1
