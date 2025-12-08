@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jjmoya
+HostName                       viterbi-scf1.usc.edu
+ProcessIdentifier              32109
+ProcessCreationTime_UTC        1765179092
+ProcessCreationTime_Readable   Sun Dec  7 23:31:32 2025 PST
+AppIdentifier                  /usr/local/cadence/ICADVM201/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Not specified
+FilePathUsedToEditLock         /home/viterbi/02/jjmoya/work_gpdk045/custom_cells/16bit_6t2_COMP_TO_ADDER_REG/physConfig/physExpand.cfg
+TimeEditLocked                 Mon Dec  8 00:23:17 2025 PST
