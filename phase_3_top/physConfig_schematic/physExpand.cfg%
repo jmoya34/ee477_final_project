@@ -1,0 +1,25 @@
+//Revision 9
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config phase_3_top;
+design custom_cells.phase_3_top:schematic;
+liblist custom_cells;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+inst (custom_cells.phase_3_top:schematic).I1 binding :schematic;
+inst (custom_cells.phase_3_top:schematic).I5 binding :schematic;
+inst (custom_cells.phase_3_top:schematic).I9 binding :schematic;
+inst (custom_cells.phase_3_top:schematic).I10 binding :schematic;
+inst (custom_cells.phase_3_top:schematic).I11 binding :schematic;
+inst (custom_cells.phase_3_top:schematic).I12 binding :schematic;
+inst (custom_cells.phase_3_top:schematic).I24 binding :schematic;
+
+
+endconfig
